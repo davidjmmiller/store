@@ -39,12 +39,14 @@
 
 .icon-up-dir:before { content: "\72"; }
 
-body { font-family: 'Noto Sans', sans-serif; }
+html, body { font-family: 'Noto Sans', sans-serif; font-size: 16px; }
 
 .bottom-shadow { box-shadow: inset 4px -6px 20px 0px rgba(0, 0, 0, 0.2); }
 
 .bottom-border { border-bottom: 6px solid #d4d4d4; }
 
 .menu-shadow { height: 40px; background: url(../img/menu-shadow.png) no-repeat center top; }
+
+.top-text li { font-size: 0.75em; font-weight: bold; text-transform: uppercase; }
 
 /*# sourceMappingURL=styles.css.map */

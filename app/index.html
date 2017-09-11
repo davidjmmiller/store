@@ -13,7 +13,9 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/styles.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -45,28 +47,30 @@
       </div>
     </div>-->
     <div class="container-fluid bottom-shadow">
-      <div class="container">
+      <div class="container top-text">
         <ul class="list-inline pull-left">
           <li><i class="icon-thumbs-o-up"></i> satisfaction 100% Guaranteed</li>
           <li><i class="icon-truck"></i> Free shipping on orders over $99</li>
         </ul>
 
-        <form method="GET" action="" class="pull-right">
-          <label for="currency_id">Currency:</label>
-          <select id="currency_id" name="currency">
-            <option value="USD">USD</option>
-            <option value="EUR">EUR</option>
-          </select>
-          <label for="language_id">Your Language:</label>
-          <select id="language_id" name="lang">
-            <option value="EN">English</option>
-            <option value="ES">Spanish</option>
-          </select>
+        <form method="GET" action="" class="pull-right global-controls">
+          <label>Currency:
+            <select id="currency_id" name="currency">
+              <option value="USD">USD</option>
+              <option value="EUR">EUR</option>
+            </select>
+          </label>
+          <label>Your Language:
+            <select id="language_id" name="lang">
+              <option value="EN">English</option>
+              <option value="ES">Spanish</option>
+            </select>
+          </label>
         </form>
       </div><!-- /.container -->
     </div>
     <div class="container-fluid bottom-shadow">
-      <header class="container">
+      <header class="container brand">
           <h1 class="pull-left">Clothes<span>Store</span></h1>
           <div class="account_container pull-right">
             <p class="inline">Welcome to our online store!</p>
@@ -109,13 +113,23 @@
       </div> <!-- Container -->
 
       <div class="container-fluid">
-        <ul
+          <div class="owl-carousel owl-theme">
+              <div> Your Content </div>
+              <div> Your Content </div>
+              <div> Your Content </div>
+              <div> Your Content </div>
+              <div> Your Content </div>
+              <div> Your Content </div>
+              <div> Your Content </div>
+          </div>      
       </div>
   
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="/js/script.min.js"></script>
   </body>
 </html>
