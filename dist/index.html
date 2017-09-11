@@ -8,22 +8,15 @@
     <meta name="author" content="">
     <link rel="icon" href="img/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Clothes Store</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Custom styles for this template -->
-    <style>
-      body {
-        padding-top: 50px;
-      }
-      .starter-template {
-        padding: 40px 15px;
-        text-align: center;
-      }
-    </style>  
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
 
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
+    
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -33,7 +26,7 @@
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!--<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -50,24 +43,97 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
+    </div>-->
+    <div class="container-fluid bottom-shadow">
+      <div class="container top-text">
+        <ul class="list-inline pull-left">
+          <li><i class="icon-thumbs-o-up"></i> satisfaction 100% Guaranteed</li>
+          <li><i class="icon-truck"></i> Free shipping on orders over $99</li>
+        </ul>
+
+        <form method="GET" action="" class="pull-right global-controls">
+          <label>Currency:
+            <select id="currency_id" name="currency">
+              <option value="USD">USD</option>
+              <option value="EUR">EUR</option>
+            </select>
+          </label>
+          <label>Your Language:
+            <select id="language_id" name="lang">
+              <option value="EN">English</option>
+              <option value="ES">Spanish</option>
+            </select>
+          </label>
+        </form>
+      </div><!-- /.container -->
     </div>
-
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+    <div class="container-fluid bottom-shadow">
+      <div class="container">
+        <header class="row brand">
+            <h1 class="col-md-5">Clothes<span>Store</span></h1>
+            <div class="account-container col-md-offset-2 col-md-5">
+              
+              <nav>
+                <p class="inline">Welcome to our online store!</p>
+                <ul class="list-inline">
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">My Whishlist</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Log In</a></li>
+                </ul>
+              </nav>
+              <div class="bag pull-right">0</div>
+              <form method="GET" action="">
+                <input type="search" placeholder="Search" name="term" />
+                <select name="category">
+                  <option value="all">All category</option>
+                </select>
+                <button type="submit" class="icon-search" ></button>
+              </form>
+            </div>
+        </header>
       </div>
+    </div> <!-- Container fluid -->
 
-    </div><!-- /.container -->
+    <div class="container-fluid bottom-border">
+        <nav class="container">
+          <ul class="list-inline">
+            <li><a href="#" class="active">New Products</a></li>
+            <li><a href="#">Coats &amp; Jackets</a></li>
+            <li><a href="#">Dresses</a></li>
+            <li><a href="#">Bottoms</a></li>
+            <li><a href="#">Tops</a></li>
+            <li><a href="#">Accessories <i class="icon-down-dir"></i></a></li>
+            <li><a href="#">Activewear</a></li>
+            <li><a href="#">Footwear</a></li>
+          </ul>
+        </nav>
+  
+      </div> <!-- Container fluid -->
+  
+      <div class="container-fluid menu-shadow">
+      </div> <!-- Container -->
 
-
+      <div class="container-fluid">
+          <div class="owl-carousel owl-theme">
+              <div> Your Content </div>
+              <div> Your Content </div>
+              <div> Your Content </div>
+              <div> Your Content </div>
+              <div> Your Content </div>
+              <div> Your Content </div>
+              <div> Your Content </div>
+          </div>      
+      </div>
+  
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="/js/script.min.js"></script>
   </body>
 </html>
