@@ -2244,6 +2244,8 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 
 body { font-family: 'Noto Sans', sans-serif; font-size: 16px; }
 
+ul li a { color: #777; font-size: 0.8125em; font-weight: normal; }
+
 .bottom-shadow { box-shadow: inset 4px -6px 20px 0px rgba(0, 0, 0, 0.2); }
 
 .bottom-border { border-bottom: 6px solid #d4d4d4; }
@@ -2258,7 +2260,15 @@ body { font-family: 'Noto Sans', sans-serif; font-size: 16px; }
 .global-controls label { color: #777; font-size: 0.8125em; font-weight: normal; border: solid 1px #e5e5e5; padding: 7px 7px 7px 12px; margin-left: 5px; }
 .global-controls label select { color: #73d5c9; font-size: 1em; font-weight: normal; border: none; }
 
-.brand h1 { font-size: 7.125em; font-weight: bold; }
+.brand h1 { font-size: 7.125em; font-weight: bold; letter-spacing: -3.5px; margin-top: 15px; margin-left: -3px; }
 .brand h1 span { font-size: 114, 114; color: #73d5c9; font-weight: normal; }
+
+.account-container { margin-top: 34px; }
+.account-container nav p { display: inline; color: #73d5c9; font-weight: bold; font-size: 0.8125em; }
+.account-container nav ul { display: inline; }
+.account-container form { float: left; margin-top: 16px; margin-left: 14px; }
+.account-container form input[type=search] { width: 210px; padding: 12px; }
+.account-container form select { padding: 12px; }
+.account-container form button { padding: 12px; color: #fff; background-color: #73d5c9; border: solid 1px gray; }
 
 /*# sourceMappingURL=bootstrap.css.map */

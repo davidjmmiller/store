@@ -97,6 +97,16 @@ body{
     font-size: 16px;
 }
 
+ul {
+    li {
+        a {
+            color: #777;
+            font-size: em(13);
+            font-weight: normal;
+        }
+    }
+}
+
 .bottom-shadow {
     box-shadow: inset 4px -6px 20px 0px rgba(0,0,0,.2);
 }
@@ -151,10 +161,46 @@ body{
     h1 {
         font-size: em(114);
         font-weight: bold;
+        letter-spacing: -3.5px;
+        margin-top:15px;
+        margin-left: -3px;
         span {
             font-size: (114,114);
             color: $brand-primary;
             font-weight: normal;
+        }
+    }
+}
+
+.account-container {
+    margin-top: 34px;
+    nav {
+        p {
+            display: inline;
+            color: $brand-primary;
+            font-weight: bold;
+            font-size: em(13);
+        }
+        ul {
+            display: inline;
+        }
+    }
+    form {
+        float: left;
+        margin-top: 16px;
+        margin-left: 14px;
+        input[type=search] {
+            width: 210px;
+            padding: 12px;
+        }
+        select {
+            padding: 12px;
+        }
+        button{
+            padding: 12px;
+            color: #fff;
+            background-color: $brand-primary;
+            border: solid 1px gray;
         }
     }
 }

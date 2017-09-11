@@ -70,27 +70,31 @@
       </div><!-- /.container -->
     </div>
     <div class="container-fluid bottom-shadow">
-      <header class="container brand">
-          <h1 class="pull-left">Clothes<span>Store</span></h1>
-          <div class="account_container pull-right">
-            <p class="inline">Welcome to our online store!</p>
-            <ul class="list-inline">
-              <li><a href="#">My Account</a></li>
-              <li><a href="#">My Whishlist</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Log In</a></li>
-            </ul>
-            <div class="bag pull-right">0</div>
-            <form method="GET" action="">
-              <input type="search" placeholder="Search" name="term" />
-              <select name="category">
-                <option value="all">All category</option>
-              </select>
-              <input type="submit" class="icon-search" value="Search"/>
-            </form>
-          </div>
-      </header>
-
+      <div class="container">
+        <header class="row brand">
+            <h1 class="col-md-5">Clothes<span>Store</span></h1>
+            <div class="account-container col-md-offset-2 col-md-5">
+              
+              <nav>
+                <p class="inline">Welcome to our online store!</p>
+                <ul class="list-inline">
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">My Whishlist</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Log In</a></li>
+                </ul>
+              </nav>
+              <div class="bag pull-right">0</div>
+              <form method="GET" action="">
+                <input type="search" placeholder="Search" name="term" />
+                <select name="category">
+                  <option value="all">All category</option>
+                </select>
+                <button type="submit" class="icon-search" ></button>
+              </form>
+            </div>
+        </header>
+      </div>
     </div> <!-- Container fluid -->
 
     <div class="container-fluid bottom-border">
